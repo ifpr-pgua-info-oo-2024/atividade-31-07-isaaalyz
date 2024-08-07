@@ -1,13 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Academia {
 
     private String nome;
     private String endereco;
     private String telefone;
 
+    List<Aluno> alunos;
     public Academia (String nome, String telefone, String endereco){
         this.nome = nome;
         this.telefone = telefone;
         this.endereco = endereco;
+        alunos = new ArrayList<>();
     }
 
     public String getnome(){
@@ -30,6 +35,9 @@ public class Academia {
         this.endereco = telefone;
     }
 
-    
- 
+    public List<Aluno> getAlunos(){
+        return alunos;
+    }
+
+
 }
