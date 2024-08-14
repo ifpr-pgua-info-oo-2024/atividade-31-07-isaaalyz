@@ -14,18 +14,18 @@ public class AppAcademia{
 
         Date data = formato.parse("14/07/2007");
         //HACKER
-        Aluno Lyz = new Aluno ("lyz", "intermediario", data, "Feminino",  1.62,52.0);
+        Aluno Lyz = new Aluno ("lyz", "intermediario", "Feminino", "14/07/2007",  1.62,52.0);
 
-        Aluno Lyzo = new Aluno ("lyzo", "alto", data, "Masculino",  1.78,83.0);
+        Aluno Lyzo = new Aluno ("lyzo", "alto", "Masculino",  "14/07/2007", 1.78,83.0);
 
-        Aluno Analice = new Aluno ("Analice", "intermediario",data, "Feminino",  1.62, 52.0);
+        Aluno Analice = new Aluno ("Analice", "intermediario", "Feminino",  "14/07/2007", 1.62, 52.0);
 
         //TORRANCE
-        Aluno Heloisa = new Aluno ("Heloisa", "intermediario", data, "Indefinido",  1.62,52.0);
+        Aluno Heloisa = new Aluno ("Heloisa", "intermediario", "Indefinido",  "14/07/2007",  1.62,52.0);
 
-        Aluno Bruna = new Aluno ("Bruna", "intermediario", data, "Feminino",  1.58,47.0);
+        Aluno Bruna = new Aluno ("Bruna", "intermediario", "Feminino",  "14/07/2007",  1.58,47.0);
 
-        Aluno Leal = new Aluno ("Leal", "intermediario", data, "Feminino",  1.62, 52.0);
+        Aluno Leal = new Aluno ("Leal", "intermediario", "Feminino",  "14/07/2007", 1.62, 52.0);
 
             System.out.println(Hacker.getnome());
             System.out.println(Hacker.gettelefone());
